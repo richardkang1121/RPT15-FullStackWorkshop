@@ -1,0 +1,46 @@
+{
+  "name": "rpt15-fullstackworkshop",
+  "version": "1.0.0",
+  "description": "A Full Stack workshop incorporating MySQL, Express, React, and Node.",
+  "main": "",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js",
+    "build": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckallemeyn/RPT15-FullStackWorkshop.git"
+  },
+  "author": "ckallemeyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckallemeyn/RPT15-FullStackWorkshop/issues"
+  },
+  "homepage": "https://github.com/ckallemeyn/RPT15-FullStackWorkshop#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "nodemon": "^1.19.1",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6"
+  }
+}
