@@ -1,10 +1,10 @@
-var express = require('express')
-var app = express()
+const express = require('express');
+const app = express();
+
+const port = 3000;
 
 app.use(express.static('./public/dist'))
 
-app.get('/gifts', (req, res) => {
-  res.json([{id: 1, gift: 'tesla'}, {id:2, gift: 'food'}, {id:3, gift: 'sleep'}])
+app.listen(port, () => {
+  console.log(`App is listening on port ${port}.`)
 })
-
-app.listen(3000, () => { console.log('App listening on port 3000.')})
