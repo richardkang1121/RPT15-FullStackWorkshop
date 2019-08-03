@@ -1,0 +1,6 @@
+DROP DATABASE IF EXISTS xmasList;
+
+CREATE DATABASE xmasList;
+
+USE xmasList;
+
